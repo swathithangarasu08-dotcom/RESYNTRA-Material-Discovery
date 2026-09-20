@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "RESYNTRA Material Discovery"
+description = "A presentation-ready research prototype for exploring agricultural waste materials through microscopy, computer vision, material fingerprints, AI screening, product design, engineering simulation, and validation."
+version = "1.0.0"
+id = "artifacts/resyntra"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23051
+
+[services.development]
+run = "pnpm --filter @workspace/resyntra run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/resyntra", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/resyntra/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23051"
+BASE_PATH = "/"

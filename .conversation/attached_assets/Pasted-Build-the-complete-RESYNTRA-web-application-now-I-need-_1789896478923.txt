@@ -1,0 +1,890 @@
+Build the complete RESYNTRA web application now. I need a polished, presentation-ready research prototype that runs immediately in Replit with no manual coding after generation.
+
+PROJECT NAME:
+RESYNTRA
+AI-Based Automated Microstructural Analysis and Material Discovery from Agricultural Waste
+
+CORE STORY:
+Agricultural waste → Microscopy → Computer Vision → Microstructural Features → Digital Material Fingerprint → AI Material Analysis → Application Discovery → 3D Product Design → Engineering Analysis → Validation
+
+IMPORTANT:
+This is a functional prototype intended to demonstrate the complete RESYNTRA workflow. Use a clearly structured seeded research dataset for the pomegranate-peel example so every screen is populated and interactive. Do not use random numbers. Keep the terminology scientifically responsible:
+- Observed = image/material information
+- Extracted = computer-vision features
+- Model Output = algorithmic prediction
+- Simulated = engineering visualization/analysis
+- Validation = future experimental validation
+
+Do NOT create empty pages, broken buttons, placeholder boxes, lorem ipsum, fake loading screens, or unfinished components.
+
+Do NOT require external APIs, API keys, paid services, authentication, Docker, or external databases to make the demo work.
+
+The application must run entirely inside Replit after generation.
+
+==================================================
+1. TECHNOLOGY
+==================================================
+
+Use:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React icons
+- Three.js
+- React Three Fiber
+- @react-three/drei
+- Recharts if useful
+
+Keep the architecture clean and modular.
+
+Use local seeded data in TypeScript/JSON so the application works immediately.
+
+==================================================
+2. VISUAL DESIGN
+==================================================
+
+Create a premium scientific research dashboard.
+
+Background:
+- white
+- very light grey
+- soft grey panels
+
+Accent colors:
+- blue for analysis
+- teal for material data
+- green for sustainability
+- purple for AI/fingerprint
+- amber for attention
+- red only for warnings
+
+Typography:
+- Inter or a similar modern scientific UI font
+
+Design characteristics:
+- clean
+- minimal
+- sophisticated
+- engineering/research aesthetic
+- rounded cards
+- subtle shadows
+- excellent spacing
+- professional charts
+- clean icons
+- smooth transitions
+
+DO NOT use:
+- cyberpunk
+- neon
+- black futuristic backgrounds
+- excessive glowing effects
+- random stock photos
+- gaming UI
+- excessive animations
+
+The website should look like a real scientific materials-discovery platform.
+
+==================================================
+3. MAIN NAVIGATION
+==================================================
+
+Create a left sidebar with:
+
+Overview
+Materials
+Microscopy
+Analysis
+Material Fingerprint
+AI Discovery
+Product Studio
+Engineering
+Validation
+Data Sources
+Model Status
+
+At the bottom:
+
+Settings
+
+Top bar:
+- RESYNTRA logo
+- "Material Discovery Intelligence"
+- current sample indicator
+- notifications icon
+- profile/researcher icon
+
+==================================================
+4. OVERVIEW DASHBOARD
+==================================================
+
+Create a beautiful overview dashboard.
+
+Header:
+
+RESYNTRA
+AI-Based Automated Microstructural Analysis and Material Discovery from Agricultural Waste
+
+Subtitle:
+
+"From what the material looks like to what the material could become."
+
+Show workflow cards:
+
+01 Agricultural Waste
+02 Microscopy
+03 Computer Vision
+04 Feature Extraction
+05 Material Fingerprint
+06 AI Discovery
+07 Product Design
+08 Engineering
+09 Validation
+
+Show a current analysis card:
+
+CURRENT MATERIAL
+Pomegranate Peel
+
+Category:
+Agricultural Residue
+
+Analysis Status:
+Analysis Complete
+
+Workflow progress:
+Microscopy → Features → Fingerprint → Discovery → Product
+
+Include a visual workflow diagram connecting all stages.
+
+==================================================
+5. MATERIAL LIBRARY
+==================================================
+
+Create a Materials page.
+
+Seed several agricultural materials:
+
+1. Pomegranate Peel
+2. Rice Husk
+3. Sugarcane Bagasse
+4. Coconut Husk
+5. Banana Fibre
+
+Make Pomegranate Peel the active selected material.
+
+Pomegranate Peel information:
+
+Material:
+Pomegranate Peel
+
+Category:
+Fruit Processing Residue
+
+Source:
+Pomegranate fruit processing residue
+
+Primary structural characteristics:
+Fibrous tissue
+Cellular structure
+Porous regions
+Heterogeneous microstructure
+
+Potential exploration areas:
+Biocomposite reinforcement
+Lightweight panels
+Packaging structures
+Bio-based functional materials
+
+Do not claim these are experimentally validated applications.
+
+==================================================
+6. MICROSCOPY PAGE
+==================================================
+
+Create a highly polished microscopy analysis page.
+
+Use a realistic microscopy-style image of pomegranate peel.
+
+If an external image is unavailable, generate a convincing microscopy visualization locally using CSS/SVG/canvas rather than leaving the page empty.
+
+The image should visually resemble:
+- pomegranate peel tissue
+- irregular cellular structures
+- fibrous regions
+- pores
+- natural biological microstructure
+- realistic microscope coloration
+
+Display:
+
+Sample:
+Pomegranate Peel
+
+Microscopy:
+Optical / Microstructural View
+
+Magnification:
+40×
+
+Image resolution:
+2048 × 1536
+
+Scale:
+100 μm
+
+Create three panels:
+
+ORIGINAL IMAGE
+
+SEGMENTATION
+
+FEATURE OVERLAY
+
+The segmentation image should visually distinguish:
+- fibre regions
+- pore regions
+- tissue regions
+
+Feature overlay should show subtle markers for:
+- fibre orientation
+- pores
+- structural boundaries
+
+Include a "Run Analysis" button.
+
+When clicked, smoothly update the analysis state and populate the analysis cards.
+
+==================================================
+7. COMPUTER VISION ANALYSIS
+==================================================
+
+Create an Analysis page.
+
+Show:
+
+Image Quality
+Good
+
+Segmentation
+U-Net based workflow
+
+Feature Extraction
+Completed
+
+Create feature cards:
+
+Mean Fibre Length
+186 μm
+
+Mean Fibre Width
+42 μm
+
+Aspect Ratio
+4.43
+
+Estimated Porosity
+28.6 %
+
+Mean Orientation
+63°
+
+Pore Count
+148
+
+Mean Pore Size
+31 μm
+
+Texture Contrast
+0.42
+
+These values are seeded prototype analysis outputs and must be visually presented as structured analysis results, not laboratory-certified measurements.
+
+Create charts:
+
+- fibre orientation distribution
+- pore-size distribution
+- structural composition
+- texture profile
+
+Use clean scientific charts.
+
+==================================================
+8. DIGITAL MATERIAL FINGERPRINT
+==================================================
+
+Create a dedicated Material Fingerprint page.
+
+Title:
+
+DIGITAL MATERIAL FINGERPRINT
+
+Show a sophisticated fingerprint visualization.
+
+Use the extracted features as the fingerprint inputs:
+
+Morphology
+Texture
+Orientation
+Porosity
+Fibre Geometry
+Pore Structure
+
+Create a radar chart and a compact fingerprint vector visualization.
+
+Show:
+
+Fingerprint ID:
+RES-POM-001
+
+Material:
+Pomegranate Peel
+
+Fingerprint Version:
+v1.0
+
+Create a PCA-style 2D material map containing:
+
+Pomegranate Peel
+Rice Husk
+Sugarcane Bagasse
+Coconut Fibre
+Banana Fibre
+
+Highlight Pomegranate Peel.
+
+Also show:
+
+Structural similarity:
+82%
+
+Do not claim this is a universal scientific similarity score. Present it as the platform's material-comparison output.
+
+==================================================
+9. AI DISCOVERY PAGE
+==================================================
+
+Create a sophisticated AI discovery dashboard.
+
+Title:
+
+AI MATERIAL DISCOVERY
+
+Show model cards:
+
+Microstructure Encoder
+Active
+
+Feature Model
+Active
+
+Material Classifier
+Active
+
+Application Screening
+Active
+
+Create a property-analysis panel.
+
+Use seeded model outputs:
+
+Predicted relative stiffness:
+Moderate–High
+
+Predicted structural stability:
+High
+
+Predicted lightweight potential:
+High
+
+Predicted fibre reinforcement potential:
+Moderate–High
+
+Confidence:
+84%
+
+Important:
+Do not label these values as laboratory measurements.
+
+Label the section:
+
+MODEL OUTPUT
+
+Show an explanation panel:
+
+KEY CONTRIBUTING FEATURES
+
+Fibre aspect ratio
+Porosity
+Orientation consistency
+Pore distribution
+Texture characteristics
+
+Create a SHAP-style horizontal contribution chart.
+
+==================================================
+10. APPLICATION DISCOVERY
+==================================================
+
+Show potential application categories based on the material fingerprint.
+
+Cards:
+
+Bio-based Composite Panel
+High screening relevance
+
+Lightweight Interior Panel
+High screening relevance
+
+Sustainable Packaging Structure
+Moderate screening relevance
+
+Bio-composite Component
+Moderate screening relevance
+
+Each card should contain:
+- application icon
+- material-property requirements
+- matching structural features
+- screening confidence
+- "Explore Product" button
+
+Do not state that these applications are experimentally proven.
+
+==================================================
+11. PRODUCT STUDIO
+==================================================
+
+This is one of the MOST IMPORTANT parts.
+
+Create an impressive interactive 3D Product Studio using Three.js / React Three Fiber.
+
+Selected concept:
+
+BIO-COMPOSITE LIGHTWEIGHT PANEL
+
+The 3D object should be a realistic engineering panel with:
+- rectangular geometry
+- rounded edges
+- subtle internal structural pattern
+- mounting holes
+- layered material appearance
+
+Controls:
+
+Width
+Height
+Thickness
+Edge Radius
+Hole Diameter
+
+Buttons:
+
+Rotate
+Reset View
+Wireframe
+Measurements
+Exploded View
+
+Allow:
+- mouse rotation
+- zoom
+- pan
+
+Add dimension indicators.
+
+Show a right-side panel:
+
+PRODUCT CONCEPT
+
+Material:
+Pomegranate Peel Derived Bio-composite
+
+Product:
+Lightweight Structural Panel
+
+Design Objective:
+Low weight + sustainable material utilization
+
+Material Basis:
+Microstructural fingerprint
+
+Do NOT generate a random futuristic object.
+
+The 3D product should look manufacturable.
+
+==================================================
+12. PRODUCT ANALYSIS
+==================================================
+
+Add an analysis section below the 3D viewer.
+
+Show:
+
+Structural Design
+Optimized
+
+Weight Potential
+High
+
+Material Utilization
+Efficient
+
+Geometry Complexity
+Moderate
+
+Manufacturing Feasibility
+Screening Stage
+
+Include a simple simulated stress visualization on the 3D model using a smooth engineering gradient.
+
+Label it:
+
+ENGINEERING SIMULATION VIEW
+
+Do not claim that this is an actual FEA result from ANSYS.
+
+Provide:
+
+"Engineering simulation prepared from the current product geometry."
+
+==================================================
+13. VALIDATION PAGE
+==================================================
+
+Create a Validation page showing how digital results connect to physical experiments.
+
+Workflow:
+
+AI Output
+↓
+Prototype Fabrication
+↓
+Laboratory Test
+↓
+Measured Property
+↓
+Prediction Error
+↓
+Model Improvement
+
+Show a validation table with example records.
+
+Columns:
+
+Material
+Property
+Model Output
+Experimental Status
+Validation Status
+
+For the current pomegranate-peel sample:
+
+Material:
+Pomegranate Peel
+
+Property:
+Structural performance
+
+Model Output:
+Screening prediction available
+
+Experimental Status:
+Pending laboratory measurement
+
+Validation Status:
+Awaiting physical validation
+
+This must clearly distinguish computational output from laboratory validation.
+
+==================================================
+14. DATA SOURCES PAGE
+==================================================
+
+Create a clean data provenance page.
+
+Show:
+
+Current Dataset
+
+RESYNTRA Research Prototype Dataset
+
+Material:
+Pomegranate Peel
+
+Data Type:
+Microstructural image + extracted features + structured material metadata
+
+Data Status:
+Available for workflow demonstration
+
+Create a "Data Provenance" card.
+
+Explain that actual scientific deployment requires experimentally measured labels and validated datasets.
+
+Do not fabricate citations.
+
+==================================================
+15. MODEL STATUS PAGE
+==================================================
+
+Create a professional model registry.
+
+Models:
+
+Microstructure Segmentation
+Version 1.0
+Status: Available
+
+Feature Extraction
+Version 1.0
+Status: Available
+
+Material Fingerprint
+Version 1.0
+Status: Available
+
+Material Screening
+Version 1.0
+Status: Prototype Model
+
+Application Screening
+Version 1.0
+Status: Prototype Model
+
+Show:
+Model version
+Input
+Output
+Purpose
+Status
+
+==================================================
+16. INTERACTIVE WORKFLOW
+==================================================
+
+The entire application must feel connected.
+
+When the user selects:
+
+Pomegranate Peel
+
+the selected material must propagate through:
+
+Materials
+→ Microscopy
+→ Analysis
+→ Fingerprint
+→ AI Discovery
+→ Applications
+→ Product Studio
+→ Engineering
+→ Validation
+
+Do not create disconnected pages.
+
+Use React state/context for the selected sample.
+
+==================================================
+17. DEMONSTRATION FLOW
+==================================================
+
+Add a button on Overview:
+
+"START MATERIAL ANALYSIS"
+
+When clicked:
+
+Step 1
+Microscopy
+
+Step 2
+Image Analysis
+
+Step 3
+Feature Extraction
+
+Step 4
+Material Fingerprint
+
+Step 5
+AI Discovery
+
+Step 6
+Application Screening
+
+Step 7
+Product Generation
+
+Step 8
+Engineering View
+
+Step 9
+Validation
+
+Use smooth transitions between stages.
+
+Do NOT use fake waiting timers that pretend to perform real computation.
+
+Instead, make the workflow a deterministic interactive demonstration of the platform pipeline.
+
+==================================================
+18. MICROSTRUCTURE VISUALIZATION
+==================================================
+
+The microscopy visualization is extremely important.
+
+Create a high-quality synthetic microscopy-style pomegranate-peel image if an actual image asset is not available.
+
+It should contain:
+- irregular biological cells
+- fibrous structures
+- pores
+- tissue boundaries
+- subtle texture
+- realistic microscopy depth
+- no text inside the image
+
+Create derived visualizations from the SAME underlying image:
+1. Original
+2. Segmentation
+3. Feature overlay
+
+Do not use unrelated images for these panels.
+
+==================================================
+19. RESPONSIVE DESIGN
+==================================================
+
+Desktop-first because this is a research presentation.
+
+Also support tablet/mobile.
+
+The 3D viewer must remain usable.
+
+==================================================
+20. PRESENTATION MODE
+==================================================
+
+Add a "Presentation Mode" button.
+
+When activated:
+- hide sidebar
+- enlarge the current workflow
+- enlarge microscopy visualization
+- enlarge 3D product
+- show the RESYNTRA title
+- minimize unnecessary UI
+
+Make it suitable for projecting onto a classroom screen.
+
+==================================================
+21. FINAL LANDING/ENDING PANEL
+==================================================
+
+Create a beautiful final panel:
+
+RESYNTRA
+
+AI-Based Automated Microstructural Analysis and Material Discovery from Agricultural Waste
+
+"From what the material looks like
+to what the material could become."
+
+Below:
+
+Agricultural Waste
+→ Microstructure
+→ Material Intelligence
+→ Product Innovation
+
+==================================================
+22. PERFORMANCE
+==================================================
+
+The app must load quickly.
+
+Do not use huge external assets.
+
+Use lightweight generated SVG/canvas microscopy visuals where necessary.
+
+Three.js must be optimized.
+
+No unnecessary packages.
+
+==================================================
+23. IMPORTANT SCIENTIFIC PRESENTATION RULE
+==================================================
+
+Never visually confuse:
+- image observation
+- feature extraction
+- model output
+- simulation
+- physical validation
+
+Use small status badges:
+
+OBSERVED
+EXTRACTED
+MODEL OUTPUT
+SIMULATED
+VALIDATION PENDING
+
+Do not put a giant "DEMO" or "SIMULATION ONLY" banner across the interface.
+
+The interface should look like a polished research prototype demonstrating the RESYNTRA methodology.
+
+==================================================
+24. FINAL QUALITY CHECK
+==================================================
+
+Before finishing:
+
+- Make sure npm run dev works.
+- Fix all TypeScript errors.
+- Fix all console errors.
+- Fix all broken imports.
+- Make every navigation item work.
+- Make every major button work.
+- Make the 3D model interactive.
+- Make the microscopy panels visually convincing.
+- Make charts render correctly.
+- Make the workflow connected.
+- Make the application visually polished.
+- Make sure there are no empty states on the main demonstration path.
+- Make sure the project can be presented immediately.
+
+Do not stop after creating a skeleton.
+
+Actually implement the complete working application.
+
+The final user journey must be:
+
+OPEN RESYNTRA
+↓
+SELECT POMEGRANATE PEEL
+↓
+VIEW MICROSCOPY
+↓
+ANALYZE MICROSTRUCTURE
+↓
+VIEW FEATURES
+↓
+GENERATE DIGITAL MATERIAL FINGERPRINT
+↓
+VIEW AI MATERIAL DISCOVERY
+↓
+EXPLORE APPLICATIONS
+↓
+OPEN 3D PRODUCT STUDIO
+↓
+ROTATE / ZOOM / MODIFY PRODUCT
+↓
+VIEW ENGINEERING SIMULATION
+↓
+VIEW VALIDATION WORKFLOW
+↓
+RETURN TO RESYNTRA OVERVIEW
+
+Make this feel like a polished, technically ambitious university research project rather than a generic dashboard.
